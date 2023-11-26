@@ -1,5 +1,6 @@
 import React from 'react';
 import CardItem from './CardItem';
+import AreaChartComponent from './AreaChartComponent';
 
 const LeftColumn = () => {
     return (
@@ -9,6 +10,9 @@ const LeftColumn = () => {
                 <CardItem />
                 <CardItem />
                 <CardItem />
+            </div>
+            <div className='flex-auto w-full'>
+                <AreaChartComponent />
             </div>
         </div>
     );
